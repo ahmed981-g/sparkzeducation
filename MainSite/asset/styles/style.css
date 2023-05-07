@@ -20,10 +20,10 @@
     width: auto;
     height: 18vh;
 }
-
+/* 
 .header-section .logo,.header-section .menu-list{
     width: 48%;
-}
+} */
 .logo{
     display: flex;
 }
@@ -44,18 +44,18 @@
 
 
 .menu-list{
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-list a{
-
-    padding: 15px 30px; 
+    width: 90px;
+    padding: 15px; 
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    flex-grow: 2;
     transition: .3s;
     color: #083A59;
 
@@ -75,4 +75,59 @@
 
 .menu-list a:hover i{
     color: red;
+}
+.fa-circle-chevron-down{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .header-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+    }
+    .sparkz-logo{
+        width: 100px;
+    }
+    .logo figcaption .sparkz-text{
+        padding-top: 20px;
+        width: 220px;
+    }
+    .logo figcaption p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .menu-list{
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid red; */
+        position: relative;
+        background-color: #083A59;
+        transition: .6s;
+    }
+    .menu-list a{
+        position: absolute;
+        z-index: -1;
+    }
+    .fa-circle-chevron-down{
+        display: block;
+        position: absolute;
+        color: #24BFBF;
+        z-index: 15;
+        transition: .6s;
+        bottom: 15px;
+        transition: transform .6s;
+    }
+    .fa-circle-chevron-down:hover{
+        box-shadow: 0 0 5px #24BFBF, 1px 1px 10px #24BFBF, 2px 2px 15px #24BFBF, 3px 3px 20px #24BFBF;
+        cursor: pointer;
+    }
+    .fa-circle-chevron-down:active{
+        color: aliceblue;
+        transition: .6s;
+        
+        
+    }
 }
