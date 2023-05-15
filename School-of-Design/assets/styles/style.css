@@ -25,8 +25,13 @@
 .nav-item:hover{
     border-bottom: 4px solid rgb(27, 215, 244);
     /* border-top: 4px solid rgb(27, 215, 244); */
-    text-shadow: 0 0 2px rgba(0, 255, 255, 0.765), 0.5px 0.5px rgba(0, 255, 255, 0.56);
+    text-shadow: 0 0 2px #003D5B;
     transition: .6s;
+}
+
+.dropdown-item:hover{
+    background-color: #003D5B;
+    color: aliceblue;
 }
 
 
