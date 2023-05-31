@@ -34,6 +34,7 @@
     color: aliceblue;
 }
 
+
 .carousel-item img{
     margin-top: 10vh;
     width: 100%;
@@ -41,8 +42,9 @@
 
 
 }
-
-
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.633);
+}
 @media only screen and (max-width: 600px){
     .visibility{
         display: block;
