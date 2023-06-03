@@ -11,10 +11,27 @@
     <link rel="stylesheet" href="../MainSite/asset/fontawesome-free-6.3.0-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="../MainSite/asset/fontawesome-free-6.3.0-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <style>
+      /* Additional custom styles */
+      .container {
+        margin-top: 50px;
+      }
+      
+      .container h1 {
+        color: #FF9800;
+        font-size: 32px;
+      }
+      
+      .container p {
+        color: #ffffff;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+    </style>
 </head>
 <body>
   <!--Start of Animated Infinite connected Stars -->
-    <div class="header position-absolute">
+    <div class="header position-absolute z-n1">
         <canvas id="canvas"></canvas>
     </div>
 
@@ -65,94 +82,76 @@
     <!-- Start of Main Section TOP -->
 
     <div class="container-fluid text-center">
+      <!-- Start of First Row -->
       <div class="row">
+        <!-- Start of Slideshow -->
         <div class="col">
-          
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            </div>
-
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
+                <img src="./assets/images/negativeSpace.jpg" class="d-block w-100" alt="Sparkz School of Design">
+                <!-- Start of First Slide -->
 
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/blueprint.jpg" class="card-img" alt="blueprint">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                <h1 style="color:white; font-size: 5rem;position: absolute;top:0;left: 50%;transform: translateX(-50%);">Spark<span style="color: red;">z</span> <br><span style="color: #76F272;">S</span>chool of <span style="color: #76F272;">D</span>esign</h1>
+                <!-- Start of Card Group -->
+                <div class="card-group">
+                  <div class="card landing-icon">
+                    <img src="./assets/icons/teacher-at-the-blackboard.png " class="card-img-top" alt="Certified Experts">
+                    <div class="card-body">
+                      <h5 class="card-title">Certified Experts</h5>
+                      <p class="card-text">Team of dedicated professionals</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card landing-icon">
+                    <img src="./assets/icons/verified-contact.png" class="card-img-top" alt="100% Placement">
+                    <div class="card-body">
+                      <h5 class="card-title">100% Placement</h5>
+                      <p class="card-text">Get Placed After Course</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card landing-icon">
+                    <img src="./assets/icons/live-show.png" class="card-img-top" alt="Live Project">
+                    <div class="card-body">
+                      <h5 class="card-title">Live Project</h5>
+                      <p class="card-text">Live practical training sessions</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card landing-icon">
+                    <img src="./assets/icons/rupee.png" class="card-img-top" alt="Lowest Fees">
+                    <div class="card-body">
+                      <h5 class="card-title">Lowest Fees</h5>
+                      <p class="card-text">No Training institute can beat us in fee structure</p>
+                    </div>
+                    
                   </div>
                 </div>
 
+                <!-- End of First Slide -->
               </div>
-
               <div class="carousel-item">
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/chair.jpg" class="card-img" alt="Chair">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+                <img src="./assets/images/blueprint.jpg" class="d-block w-100" alt="blueprint">
               </div>
-
               <div class="carousel-item">
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/leaves.png" class="card-img" alt="leaves">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+                <img src="./assets/images/leaves.png" class="d-block w-100" alt="leaves">
               </div>
-
               <div class="carousel-item">
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/lens.jpg" class="card-img" alt="lens">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+                <img src="./assets/images/lens.jpg" class="d-block w-100" alt="lens">
               </div>
-
               <div class="carousel-item">
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/pots.jpg" class="card-img" alt="pots">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+                <img src="./assets/images/pots.jpg" class="d-block w-100" alt="pots">
               </div>
-
               <div class="carousel-item">
-                <div class="card text-bg-dark">
-                  <img src="./assets/images/university.jpg" class="card-img" alt="university">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
+                <img src="./assets/images/university.jpg" class="d-block w-100" alt="university">
               </div>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -163,13 +162,228 @@
 
 
         </div>
+        <!-- End of Slide Show -->
+
       </div>
+      <!-- End of First Row -->
+
+      <!-- Start of 2nd Row -->
+      <div class="row row2">
+        <!-- Start of 1st Column -->
+        <div class="col">
+          <img src="./assets/images/ID1.jpg" alt="Design Copy">
+        </div>
+        <!-- End of 1st Column -->
+        <!-- Start of 2nd Column -->
+        <div class="col">
+          <h4 align="left" style="text-transform: uppercase;">Spark<span style="color: red;">z</span> The School of Design</h4>
+          <p>Sparkz The School of Design offers a wide variety of courses, advanced courses, experts and masters in the areas of Product Design, Interior Design and Furniture Design, Painting & Sculptures adapted to the latest market needs. Being a popular choice for many students, Sparkz The School of Design always focus on delivering quality education. With core expertise of various industries and immense knowledge, our faculty members are always ready to provide best solutions for the queries of students. With solid years of experience, Sparkz The School of Design has created perfect atmosphere for innovative students to get quality training. We always value the capabilities of our students, and hence we make sure to provide the best support through professional teaching.
+            <br><br>
+            At Sparkz The School of Design our highest objective is student&apos;s satisfaction. Our innovative and personalized philosophy makes our studios a unique offer in design training, which allows you to obtain professional certifications by combining studies with your daily life. Study when and where you want, it is possible through our Virtual Campus where you will find all the graphic and visual materials, in addition to maintaining continuous contact with your teaching team and staff of Sparkz The School of Design.</p>
+        </div>
+        <!-- End of 2nd Column -->
+      </div>
+      <!-- End of 2nd Row -->
+
+      <!-- Start of 3rd Row -->
+      <div class="row row3">
+        <!-- 1st Column -->
+        <div class="col">
+          <h4>OUR FACULTY</h4>
+          <ul>
+            <li>Our Faculty is a dynamic and diverse community of esteemed educators, researchers, and professionals committed to fostering academic excellence and holistic development. With a shared passion for education and a relentless pursuit of knowledge, our faculty members are dedicated to nurturing the intellectual curiosity and personal growth of our students.</li>  
+            <li>At Sparkz The School of Design, we prioritize student-centered learning, providing an engaging and supportive environment that encourages active participation and critical thinking. Our faculty members are not only experts in their respective fields but also caring mentors who inspire and empower students to achieve their full potential.</li>
+            <li>We promote interdisciplinary collaboration, embracing the convergence of ideas and fostering innovation. Through cutting-edge research, creative exploration, and practical applications, our faculty members strive to make a positive impact in their fields and society as a whole.</li>
+          </ul>
+        </div>
+        <!-- 2nd Column -->
+        <div class="col">
+          <img src="./assets/images/ID2.jpg" alt="Our Faculty">
+        </div>
+      </div>
+      <!-- End of 3rd Row -->
       
-    </div>
-    
+      <!-- Start of 4th Row -->
+      <div class="row row3">
+        <div class="col why-us">
+          <h1>Why Choose Us?</h1>
+        </div>
+      </div>
+      <!-- End of 4th Row -->
+
+      <!-- Start of 5th Row -->
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            <h1>Transform Your Space: Unleash the Magic of Interior Design!</h1>
+            <p>Are you ready to turn your ordinary space into an extraordinary masterpiece? Look no further! Our interior design experts are here to unleash their creativity and bring your vision to life.</p>
+            <p>Discover the Art of Space: Step into a world where walls speak, colors dance, and furniture tells a story. Our team of talented designers understands the power of space and how to utilize it to create an ambiance that reflects your unique personality and style.</p>
+            <p>Immerse in Sensational Designs: From sleek modern marvels to timeless classics, our designers have mastered the art of creating stunning interiors that leave a lasting impression. Get ready to immerse yourself in a world of breathtaking designs, where every corner tells a tale of elegance, harmony, and comfort.</p>
+            <p>Innovative Ideas, Endless Possibilities: We believe in pushing boundaries and redefining what's possible. Our innovative ideas will take your space to new heights, incorporating cutting-edge trends, ingenious storage solutions, and striking focal points that will leave you in awe.</p>
+            <p>Tailored to Perfection: Your space is as unique as you are, and we understand the importance of personalization. Our designers work closely with you to understand your vision, preferences, and lifestyle, ensuring that every element is meticulously tailored to create a space that exceeds your expectations.</p>
+            <p>Unleash Your Inner Designer: Don't worry if you're not sure about your style or have trouble visualizing the end result. Our talented team will guide you every step of the way, helping you discover your inner designer and making the design process an exciting and enjoyable journey.</p>
+            <p>Experience the Wow Factor: Prepare to be wowed! Our interior design services go beyond aesthetics. We believe that a well-designed space should not only look remarkable but also function flawlessly. With our expertise, you'll experience the perfect blend of beauty and practicality, making your space truly exceptional.</p>
+            <p>Don't settle for ordinary when you can have extraordinary! Contact us today and let our passionate team of interior designers turn your space into a masterpiece that will leave everyone speechless. Get ready to embark on a transformational journey that will redefine the way you live and experience your surroundings.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- End of 5th Row -->
+
+      <!-- Start of 6th Row -->
+      <div class="row">
+        <div class="col">
+          <!-- Start of accordion -->
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Comprehensive Curriculum
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Our interior designing school offers a well-rounded and comprehensive curriculum that covers all aspects of interior design. From foundational principles to advanced design techniques, our program equips students with the knowledge and skills necessary to excel in the field.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Expert Faculty
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Our faculty comprises experienced and accomplished professionals who have a deep understanding of the interior design industry. They bring a wealth of practical knowledge and real-world experience into the classroom, ensuring that students receive valuable insights and guidance.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Industry Connections and Internships
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>We have established strong connections with industry professionals and firms. Through internships and industry partnerships, students have the opportunity to gain real-world experience, network with professionals, and enhance their employment prospects upon graduation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of accordion -->
+        </div>
+      </div>
+      <a href="#">
+        <button class="btn btn-primary contact-btn">Contact Us</button>
+
+      </a>
+      <!-- End of 6th Row -->
+    </div>    
     <!-- End of Main Section TOP -->
 
-    
+
+
+
+
+<!-- Start of Middle Section -->
+
+<hr>
+<!-- Start of Browse Course Section -->
+
+<div class="row courses">
+  <div class="col">
+    <h1>OUR COURSES</h1>
+    <p>Discover your creative potential with our diverse range of courses, including Interior Designing, Multimedia, Graphic Pro+, and Animation.</p>
+    <p>Unleash your imagination and master the skills needed to bring your artistic visions to life.</p>
+    <p>Join us today and embark on an exciting journey towards a successful career in the creative industries.</p>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 courses">
+  <div class="col">
+    <div class="card">
+      <img src="./assets/images/IntDes.jpg" class="card-img-top" alt="Interior Designing">
+      <div class="card-body">
+        <h5 class="card-title">Diploma in Interior Designing</h5>
+        <button class="btn-primary">Get Details</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  
+
+
+
+
+
+
+
+<!-- End of Browse Course Section -->
+
+<div class="row">
+  <div class="col">
+    <h1>Empty</h1>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End of Middle Section -->
+
     <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
